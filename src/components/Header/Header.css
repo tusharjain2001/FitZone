@@ -1,0 +1,28 @@
+.header{
+display: flex;
+    justify-content: space-between;
+    
+}
+.image1 {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+    
+
+}
+
+.menu {
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 2em;
+    height: 2px;
+    
+}
+
+.menu>li:hover{
+    cursor: pointer;
+    color: orange;
+}
+
