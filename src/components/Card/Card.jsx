@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 const Card = (props) => {
   return (
-    <div>
+    <div className="w-[300px] ">
         <div className="inner  bg-stone-400 mb-5 hover:bg-gradient-to-r from-orange-500 to-amber-300 p-6 rounded-xl ">
           <div className="text-white">{props.img}</div>
           
