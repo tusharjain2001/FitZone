@@ -13,10 +13,10 @@ import { SiPuma } from "react-icons/si";
 const Reasons = () => {
   return (
     <div
-      className="reasons gap-4 h-[600px] pb-10 flex flex-col mt-[100px] md:flex-row p-4"
+      className="reasons gap-4 pb-10 flex flex-col mt-[100px] md:flex-row p-4"
       id="reasons "
     >
-      <div className="reasonleft gap-4 flex flex-row flex-1 ml-6 ">
+      <div className="reasonleft h-[600px] gap-4 flex flex-row flex-1 ml-6 ">
         <div className="reasonleftleft flex-1 h-full">
           <img className="one h-full object-cover" src={GYM} alt="" />
         </div>
@@ -66,7 +66,6 @@ const Reasons = () => {
         </div>
         <div className="text-stone-700 font-medium mt-4 ml-3">OUR PARTNERS</div>
         <div className="flex flex-row gap-4   ml-3">
-          
           <CgAdidas className="text-stone-700 " size={44} />
           <SiNike className="text-stone-700 " size={44} />
           <SiNewbalance className="text-stone-700 " size={44} />

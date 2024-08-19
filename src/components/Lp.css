@@ -144,11 +144,12 @@
  .img2 {
     position: absolute;
     top: 9rem;
-    left: -410px;
-    width: 800px;
+    left: -260px;
+    width: 500px;
     max-width: none;
     height: 500px;
     mix-blend-mode: multiply;
+    object-fit: cover;
  }
  
  .text4 {
