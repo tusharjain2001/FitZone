@@ -2,7 +2,7 @@ import React from "react";
 
 const Join = () => {
   return (
-    <div className="join mt-10 ml-8 pb-6 flex flex-col gap-8 md:flex-row">
+    <div id="join" className="join mt-10 ml-8 pb-6 flex flex-col gap-8 md:flex-row">
       <div>
         <div className="bg-orange-500 w-[200px] h-1  rounded-[100%]   "></div>
 

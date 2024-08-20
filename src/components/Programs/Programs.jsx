@@ -11,8 +11,8 @@ import { IoFitness } from "react-icons/io5";
 
 const Programs = () => {
   return (
-    <div className="programs">
-      <div className="header2 text-2xl flex-col gap-3 md:text-5xl md:flex-row md:gap-8">
+    <div className="programs" id="program">
+      <div className="header2 text-2xl flex-col gap-3 mt-10 md:text-5xl md:flex-row md:gap-8 ">
         <span className="text5">PROGRAMS</span>
         <span>TO SUPPORT</span>
         <span className="text6">YOUR GROWTH</span>

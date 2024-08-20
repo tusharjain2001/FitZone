@@ -8,7 +8,7 @@ import { LuDumbbell } from "react-icons/lu";
 
 const Plans = () => {
   return (
-    <div className="planscont">
+    <div className="planscont " id="plans">
       <div className="plansheader flex flex-col justify-between text-white p-8 text-2xl font-extrabold tracking-widest italic md:text-5xl md:flex-row">
         <span className="text-stroke-3">READY TO</span>
         <span>BEGIN YOUR</span>

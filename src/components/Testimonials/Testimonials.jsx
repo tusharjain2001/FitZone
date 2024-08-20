@@ -54,7 +54,7 @@ const Testimonials = () => {
 
   const testimonial = data[currentIndex];
   return (
-    <div className="testimonials mt-10 p-8 gap-10 flex flex-col md:flex-row ">
+    <div id="testimonials" className="testimonials mt-10 p-8 gap-10 flex flex-col md:flex-row ">
       <div className="left-t flex flex-col gap-[2rem] flex-[3]">
         <div className="font-bold text-orange-500 text-xl">TESTIMONIALS</div>
         <div className="text-stroke-3 text-6xl">WHAT THEY </div>

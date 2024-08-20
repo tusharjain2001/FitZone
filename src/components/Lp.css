@@ -171,17 +171,58 @@
     -webkit-text-stroke-color: white;
  } 
 
- .open {
-    position: absolute;
-    top: 9rem;
-    right: 4rem;
-    font-size: xx-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bolder;
-    
-    font-style: italic;
-    border-radius: 20px;
-    
-    
+
+ @media screen and (max-width : 768px) {
+   
+   .lp {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .ad {
+      margin-top: 20px;
+      transform: scale(0.8);
+      width: 300px;
+      
+      align-self: center;
+      
+   }
+
+   .ad>div {
+      
+   }
+
+   .fit {
+      margin-top: 20px;
+   }
+
+   .one {
+      font-size: 1rem;
+   }
+
+   .figures{
+      gap: 10px;
+   }
+
+   .img2 {
+      position: relative;
+      align-self: center;
+      width: 200px;
+      top: 9rem;
+    left: 50px;
+    height: 250px;
+    object-fit: cover;
+
+
+   }
+   .rlp {
+      background-color: none;
+   }
+   .text4 {
+      position: relative;
+      font-size: 1rem;
+      top: -10rem;
+
+   }
 
  }

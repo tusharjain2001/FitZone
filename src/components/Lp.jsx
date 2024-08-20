@@ -1,15 +1,14 @@
 import React from "react";
 import "./Lp.css";
 import Header from "./Header/Header.jsx";
-import Fitness from './Fitness.png'
-
+import Fitness from "./Fitness.png";
 
 const Lp = () => {
   return (
-    <div className="lp">
+    <div className="lp" id="lp">
       <div className="llp">
         <Header />
-        <span className="font-bold  text-white text-3xl  tracking-[.5em]">
+        <span className=" fit font-bold  text-white text-3xl  tracking-[.5em]">
           FitZone
         </span>
 
@@ -47,17 +46,16 @@ const Lp = () => {
             </span>
           </div>
         </div>
-<div className="button">
-  <button className="btn1">Get Started</button>
-  <button className="btn2">Learn More</button>
-</div>
-
+        <div className="button">
+          <button className="btn1">Get Started</button>
+          <button className="btn2">Learn More</button>
+        </div>
       </div>
       <div className="rlp bg-orange-400">
         <button className="btn3">Join Now</button>
 
-        <span className="open bg-red-500 text-white p-2 ">Open 24/7</span>
         
+
         <img className="img2" src={Fitness} alt=""></img>
 
         <div className="text4">
@@ -65,7 +63,6 @@ const Lp = () => {
           <span className="text42">STRENGTH</span>
         </div>
       </div>
-      
     </div>
   );
 };

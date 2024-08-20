@@ -34,11 +34,11 @@ const Reasons = () => {
           </div>
         </div>
       </div>
-      <div className="reasonright flex-1">
+      <div className="reasonright flex-1 ">
         <div className="text-orange-400 font-bold text-xl tracking-wider">
           SOME REASONS
         </div>
-        <div className="flex flex-row first-letter gap-6 text-white font-extrabold text-6xl tracking-wide mt-4">
+        <div className="flex flex-row first-letter gap-6 text-white font-extrabold text-2xl tracking-wide mt-4 md:text-6xl">
           <div className="text-stroke-3 text-transparent">WHY</div>
           <div>CHOOSE US ?</div>
         </div>
