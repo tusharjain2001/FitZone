@@ -1,6 +1,8 @@
 import React from "react";
 
 const Join = () => {
+
+
   return (
     <div id="join" className="join mt-10 ml-8 pb-6 flex flex-col gap-8 md:flex-row">
       <div>
@@ -27,7 +29,7 @@ const Join = () => {
               type="text"
               placeholder="Enter your email address here..."
             ></input>
-            <button className="bg-orange-500 text-white font-bold  p-4 flex-1">
+            <button className="bg-orange-500 text-white font-bold  p-4 flex-1 ">
               Join now
             </button>
           </div>

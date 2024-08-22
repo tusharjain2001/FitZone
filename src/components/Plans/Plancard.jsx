@@ -2,6 +2,7 @@ import React from "react";
 import { LiaCheckCircleSolid } from "react-icons/lia";
 
 const Plancard = (props) => {
+  
   return (
     <div className={`cardcontainer flex flex-col  text-white w-[20rem] gap-[2rem]  p-8 ${props.bg}`}>
       
@@ -20,7 +21,7 @@ const Plancard = (props) => {
         <span>{props.ben} </span>
         <div>{props.img2}</div>
       </div>
-      <button className="flex bg-white text-black font-semibold p-3 w-full justify-center rounded-lg">
+      <button className="flex bg-white text-black font-semibold p-3 w-full justify-center rounded-lg onClick={() => setShowForm(true)}">
         Join Now
       </button>
     </div>
